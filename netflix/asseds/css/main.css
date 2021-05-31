@@ -1,0 +1,6 @@
+.corpo {
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    background-color: var(--preto);
+    color: var(--branco);
+}

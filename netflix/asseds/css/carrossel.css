@@ -1,0 +1,12 @@
+.lista__titulo {
+    color: var(--branco);
+    font-size: var(--botoes);
+    padding: 0.5rem 0;
+    margin-left: 1.8rem;
+    text-transform: uppercase;
+}
+.box-filmes {
+    display: block;
+    height: 100%;
+    width: 100%;
+}

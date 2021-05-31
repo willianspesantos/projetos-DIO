@@ -1,0 +1,65 @@
+.cabecalho .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.logo__cabecalho {
+    color: var(--vermelho);
+    font-size: 2.5rem;    
+    text-transform: uppercase;
+}
+
+.menu__link {
+    color: var(--cinza);
+    margin-right: 0.625rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: var(--branco);    
+}
+
+.menu__botao i {
+    display: none;    
+}
+
+@media screen and (max-width: 756px) {
+        
+    .cabecalho__menu {
+        display: none;
+        margin-top: 1rem;
+    }
+
+    .menu__botao i {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 20px;
+
+    }
+
+    .logo__cabecalho {      
+        font-size: 2.0rem;
+        
+    }
+
+    .menu__link {
+        margin-top: 1.8rem;
+    }
+
+    .botao-acionado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .altura-menu {
+        height: 20rem;
+        flex-direction: column;
+        justify-content: flex-start !important;
+    }
+}

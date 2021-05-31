@@ -1,0 +1,18 @@
+:root {
+    /*cores*/
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #AAA;
+    --branco: #FFF;
+
+    /*fontes*/
+    --fonte-primaria: 'Times New Roman', Times, Serif;
+    --fonte-secundaria: 'Arial Black', Times;
+    --botoes: 'Trebuchet MS', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
